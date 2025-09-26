@@ -1,0 +1,56 @@
+ @media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+ 
+h1 {
+  font-size: 3em;
+  color: #333;
+  animation: colorChange 3s infinite alternate;
+}
+ 
+@keyframes colorChange {
+  0% { color: #333; }
+  50% { color: #d36699; }
+  100% { color: #f7e8c9; }
+}
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+ 
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #f7e8c9;
+  color: rgb(194, 79, 127);
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #d36699;
+}
+ 
+button {
+  transition: background-color 0.3s ease;
+}
+ 
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: rgb(254, 232, 213);
+}
+ 
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+ 
+ 
+ 
